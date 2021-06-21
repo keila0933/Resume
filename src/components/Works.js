@@ -50,7 +50,7 @@ export default function Works() {
       >
         <SwiperSlide>
           <a href="https://www.google.com.tw/">
-            <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+            <img src="https://keila0933.github.io/Resume/images/work_resume.JPG" />
             <div className="workInfo">
               <div className="workTitle">Title1</div>
               <div className="workTool">Tool</div>
@@ -60,7 +60,7 @@ export default function Works() {
 
         <SwiperSlide>
           <a href="https://fcy-shoes-store.herokuapp.com/">
-            <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+            <img src="https://keila0933.github.io/Resume/images/work_store.JPG" />
             <div className="workInfo">
               <div className="workTitle">Title2</div>
               <div className="workTool">Tool</div>
@@ -69,7 +69,7 @@ export default function Works() {
         </SwiperSlide>
         <SwiperSlide>
           <a href="https://keila0933.github.io/paint-board/">
-            <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+            <img src="https://keila0933.github.io/Resume/images/work_paint.JPG" />
             <div className="workInfo">
               <div className="workTitle">Title3</div>
               <div className="workTool">Tool</div>
