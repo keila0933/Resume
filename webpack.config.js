@@ -10,7 +10,7 @@ module.exports = {
     //here is the filename after packaging
     filename: 'js/bundle.js',
     //bundle.js location(root directory)
-    path: path.resolve(__dirname, './dist'),
+    path: path.resolve(__dirname, './docs'),
   },
   module: {
     rules: [
