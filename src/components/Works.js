@@ -49,7 +49,7 @@ export default function Works() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <a href="https://www.google.com.tw/">
+          <a href="https://keila0933.github.io/Resume/">
             <img src="https://keila0933.github.io/Resume/images/work_resume.JPG" />
             <div className="workInfo">
               <div className="workTitle">Title1</div>
