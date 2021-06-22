@@ -305,7 +305,6 @@ h2 {
   margin-bottom: 36px;
 
   .swiper-slide {
-    display: block;
     width: 40%;
     cursor: pointer;
     img {
@@ -326,16 +325,22 @@ h2 {
     }
     .workInfo {
       position: absolute;
-      top: 30%;
-      left: 45%;
+      top: 10%;
+      padding: 30px;
       width: 100%;
       z-index: 99;
       color: white;
       transition: transform 0.5s ease 0s, opacity 0.5s ease 0s;
       .workTitle {
-        margin-bottom: 1.5rem;
-        font-size: 2.4rem;
+        width: 50%;
+        font-family: sans-serif;
+        margin-bottom: 16px;
+        font-size: 24px;
         font-weight: bold;
+      }
+      .workTool {
+        display: inline;
+        font-size: 16px;
       }
     }
     &:hover {
