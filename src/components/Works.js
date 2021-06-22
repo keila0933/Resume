@@ -2,11 +2,7 @@ import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
 // import Swiper core and required modules
-import SwiperCore, {
-  EffectCoverflow,
-  Pagination,
-  Navigation,
-} from 'swiper/core'
+import SwiperCore, { EffectCoverflow, Pagination } from 'swiper/core'
 
 // install Swiper modules
 SwiperCore.use([EffectCoverflow, Pagination])
@@ -38,6 +34,8 @@ export default function Works() {
         initialSlide={1}
         centeredSlides={true}
         slidesPerView={'auto'}
+        observer={true}
+        observeParents={true}
         coverflowEffect={{
           rotate: 50,
           stretch: 0,
