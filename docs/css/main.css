@@ -515,6 +515,8 @@ h2 {
           margin-right: 24px; }
         .header-wrapper .header .header-content .socialMedia .socialIcon:nth-child(2) {
           margin-right: 0; }
+  .line:after {
+    height: 150px; }
   .skills-box {
     flex-direction: column; }
     .skills-box .skill {

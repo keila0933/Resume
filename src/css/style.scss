@@ -516,6 +516,11 @@ h2 {
       }
     }
   }
+
+  .line:after {
+    height: 150px;
+  }
+
   .skills-box {
     flex-direction: column;
 
