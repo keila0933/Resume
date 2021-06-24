@@ -34,7 +34,7 @@ h2 {
 }
 
 .container {
-  width: 1200px;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -49,6 +49,11 @@ h2 {
 .font-size {
   font-size: 24px;
   line-height: 36px;
+}
+
+.fa-facebook-square:hover,
+.fa-github:hover {
+  color: gray;
 }
 
 .title_box {
@@ -71,56 +76,59 @@ h2 {
 }
 
 /*-------------------- header  --------------------*/
-.header {
-  display: flex;
-  background-image: url(./../images/green-bg.jpg);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  justify-content: center;
-  align-items: center;
-  padding: 356px 0 260px 0;
 
-  .photo {
-    margin-right: 80px;
-    img {
-      border: 5px solid white;
-      width: 300px;
-      height: 300px;
-      border-radius: 50%;
-    }
-  }
+.header-wrapper {
+  width: 100%;
+  .header {
+    display: flex;
+    background-image: url(./../images/green-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 356px 0 270px 0;
 
-  .header-content {
-    width: 600px;
-    color: #ffffff;
-    .header-text {
-      font-weight: 700;
-      margin-bottom: 48px;
-    }
-    .header-title {
-      font-weight: 900;
-      margin-bottom: 27px;
-    }
-    .socialMedia {
-      .socialIcon {
-        font-size: 48px;
-        color: white;
-        margin-right: 48px;
-        text-decoration: none;
+    .photo {
+      margin-right: 50px;
+      img {
+        border: 5px solid white;
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
       }
     }
 
-    h1 {
-      font: bold 200% Consolas, Monaco, monospace;
-      /* 	width: 8.25em; */
-      width: 20ch;
-      white-space: nowrap;
-      overflow: hidden;
-      border-right: 0.05em solid;
-      animation: typing 4s steps(10) infinite, caret 1s steps(1) infinite;
+    .header-content {
+      color: #ffffff;
+      .header-text {
+        font-weight: 500;
+        margin-bottom: 48px;
+      }
+      .header-title {
+        font-weight: 700;
+        margin-bottom: 27px;
+      }
+      .socialMedia {
+        .socialIcon {
+          font-size: 48px;
+          color: white;
+          margin-right: 48px;
+          text-decoration: none;
+        }
+      }
+
+      h1 {
+        font: bold 180% Consolas, Monaco, monospace;
+        width: 14ch;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 0.05em solid;
+        animation: typing 4s steps(7) infinite, caret 1s steps(1) infinite;
+      }
     }
   }
 }
+
 @keyframes typing {
   from {
     width: 0;
@@ -197,8 +205,7 @@ h2 {
   .skills {
     background: $darkgreen;
     color: #fff;
-    padding-top: 24px;
-    padding-bottom: 56px;
+    padding: 24px 30px 56px 30px;
   }
 
   .skillsList {
@@ -210,7 +217,7 @@ h2 {
       width: 100%;
       justify-content: center;
       border-bottom: 1px solid #fff;
-      margin-bottom: 40px;
+      margin-bottom: 52px;
     }
     span {
       color: #fff;
@@ -223,6 +230,7 @@ h2 {
       align-items: center;
       width: 100%;
       .skill-title {
+        font-size: 24px;
         text-align: center;
         position: relative;
         top: -50px;
@@ -232,27 +240,27 @@ h2 {
       .skill {
         background-color: rgba(255, 255, 255, 0.4);
         border-radius: 2px;
-        padding: 30px;
+        padding: 20px;
         .skillsItem {
           font-size: 20px;
           position: relative;
+          text-align: center;
           top: -30px;
-
           &::before {
             content: '';
             position: absolute;
             border-left: 4px solid $lightgreen;
             top: 0;
             bottom: 0;
-            left: -40px;
+            left: -30px;
           }
           &::after {
             content: '';
             position: absolute;
             border-top: 4px solid $lightgreen;
-            bottom: -70px;
-            left: 0;
-            width: 100%;
+            bottom: -60px;
+            left: 25px;
+            width: 80%;
           }
           li:last-child {
             margin-bottom: 0;
@@ -367,7 +375,9 @@ h2 {
 /*-------------------- footer  --------------------*/
 
 .footer {
+  width: 100%;
   background: $darkgreen;
+  background-size: 100% 100%;
   color: #fff;
   padding-top: 24px;
   padding-bottom: 48px;
@@ -405,6 +415,118 @@ h2 {
     i {
       color: white;
       font-size: 32px;
+    }
+  }
+}
+
+// --------------response---------------
+
+@media screen and (max-width: 1200px) {
+  .skills-bg::after {
+    height: 313px;
+    top: 40px;
+  }
+  .skills {
+    .skills-box {
+      .skill {
+        width: 230px;
+        .skill-title {
+          line-height: 28px;
+          font-size: 20px;
+        }
+        .skillsItem li {
+          font-size: 16px;
+          line-height: 24px;
+        }
+      }
+      .skill:nth-child(1),
+      .skill:nth-child(2) {
+        .skill-title {
+          top: -40px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .skills {
+    .skills-box {
+      .skill {
+        width: 170px;
+        .skill-title {
+          line-height: 24px;
+          font-size: 16px;
+        }
+        .skillsItem li {
+          font-size: 12px;
+          line-height: 18px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 768px;
+  }
+  .header-wrapper {
+    width: 768px;
+  }
+  .skills {
+    .skills-box {
+      flex-direction: column;
+      align-items: center;
+      .skill {
+        width: 280px;
+        padding: 20px;
+        margin-bottom: 60px;
+        .skill-title {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and(max-width:480px) {
+  .container {
+    width: 480px;
+  }
+  .header-wrapper {
+    width: 480px;
+    .header {
+      flex-wrap: wrap;
+      .photo {
+        margin-right: 0;
+      }
+      .header-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .socialMedia {
+          .socialIcon:nth-child(1) {
+            margin-right: 24px;
+          }
+          .socialIcon:nth-child(2) {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+  }
+  .skills-box {
+    flex-direction: column;
+
+    .skill {
+      width: 250px;
+    }
+  }
+
+  .swiper-container {
+    .swiper-slide {
+      width: 60%;
     }
   }
 }

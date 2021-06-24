@@ -13,7 +13,7 @@ class Skill extends React.Component {
             <div className="skills-box">
               <div className="skill">
                 <div className="skill-title">Data Analysis</div>
-                <ul className="skillsItem font-size">
+                <ul className="skillsItem">
                   <li>R / Python</li>
                   <li>MSSQL / Oracle</li>
                   <li>SPSS / Excel</li>
@@ -21,7 +21,7 @@ class Skill extends React.Component {
               </div>
               <div className="skill">
                 <div className="skill-title">Web Developement</div>
-                <ul className="skillsItem font-size">
+                <ul className="skillsItem">
                   <li>Html5 / CSS{' & '}SCSS</li>
                   <li>Javascript / jQuery </li>
                   <li>React{' & '}hooks</li>
@@ -32,7 +32,7 @@ class Skill extends React.Component {
               </div>
               <div className="skill">
                 <div className="skill-title"> Language{' & '}Others </div>
-                <ul className="skillsItem font-size">
+                <ul className="skillsItem">
                   <li>Chinese / English</li>
                   <li>Git</li>
                   <li>JAVA / C#</li>

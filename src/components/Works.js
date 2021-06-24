@@ -7,21 +7,6 @@ import SwiperCore, { EffectCoverflow, Pagination } from 'swiper/core'
 // install Swiper modules
 SwiperCore.use([EffectCoverflow, Pagination])
 
-const works = [
-  {
-    title: '1',
-    tool: '',
-    link: '',
-    img: 'https://swiperjs.com/demos/images/nature-1.jpg',
-  },
-  {
-    title: '2',
-    tool: ' ',
-    link: '',
-    img: 'https://swiperjs.com/demos/images/nature-2.jpg',
-  },
-]
-
 export default function Works() {
   return (
     <div className="mgb container">
