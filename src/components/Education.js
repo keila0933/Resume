@@ -12,12 +12,27 @@ class Education extends React.Component {
           <li className="point line">
             國立中山大學 資訊管理所 碩士 | 2018.9-2020.7
           </li>
-          <span>GPA:4.2</span> <a href="">成績單</a> <br />
-          <span>商業大數據學程</span> <a href="">證書</a>
+          <span>GPA:4.21</span>{' '}
+          <a href="https://drive.google.com/file/d/18HDv5PjHDmaGd-0cMbUGX-h8wzJoVcNq/view?usp=sharing">
+            成績單
+          </a>{' '}
+          <br />
+          <span>商業大數據學程</span>{' '}
+          <a href="https://drive.google.com/file/d/18R8Z12YxUW27rU_K1sHE4E22yWXBddcT/view?usp=sharing">
+            證書
+          </a>
           <li className="point">
             國立中央大學 企業管理學系 學士 | 2014.9-2018.6
           </li>
-          <span>ERP學程</span> <a href="">證書</a>
+          <span>ERP學程</span>{' '}
+          <a href="https://drive.google.com/file/d/18T2_yxcV1t2QOYY97714C1oTeSHGG0wD/view?usp=sharing">
+            證書
+          </a>
+          <br />
+          <span>多益</span>{' '}
+          <a href="https://drive.google.com/file/d/18SDxtHotYMDZh94aqMhrJIz5hA9vVdcY/view?usp=sharing">
+            證書
+          </a>
         </ul>
       </div>
     )
