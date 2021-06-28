@@ -204,18 +204,22 @@ h2 {
     background-image: url(../images/green-bg.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 356px 0 270px 0; }
+    padding: 50px 0 200px 0; }
     .header-wrapper .header .photo {
-      margin-right: 50px; }
+      margin-right: 0; }
       .header-wrapper .header .photo img {
         border: 5px solid white;
         width: 300px;
-        height: 300px;
-        border-radius: 50%; }
+        height: 310px;
+        border-radius: 30%; }
     .header-wrapper .header .header-content {
-      color: #ffffff; }
+      color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
       .header-wrapper .header .header-content .header-text {
         font-weight: 500;
         margin-bottom: 48px; }
@@ -225,8 +229,11 @@ h2 {
       .header-wrapper .header .header-content .socialMedia .socialIcon {
         font-size: 48px;
         color: white;
-        margin-right: 48px;
         text-decoration: none; }
+      .header-wrapper .header .header-content .socialMedia .socialIcon:nth-child(1) {
+        margin-right: 36px; }
+      .header-wrapper .header .header-content .socialMedia .socialIcon:nth-child(2) {
+        margin-right: 0; }
       .header-wrapper .header .header-content h1 {
         font: bold 180% Consolas, Monaco, monospace;
         width: 14ch;
@@ -278,7 +285,7 @@ h2 {
   content: '';
   position: absolute;
   width: 2px;
-  height: 100px;
+  height: 140px;
   background: #5e7a7d;
   top: 18px;
   left: -25px; }
@@ -503,20 +510,8 @@ h2 {
     width: 480px; }
   .header-wrapper {
     width: 480px; }
-    .header-wrapper .header {
-      flex-wrap: wrap; }
-      .header-wrapper .header .photo {
-        margin-right: 0; }
-      .header-wrapper .header .header-content {
-        display: flex;
-        flex-direction: column;
-        align-items: center; }
-        .header-wrapper .header .header-content .socialMedia .socialIcon:nth-child(1) {
-          margin-right: 24px; }
-        .header-wrapper .header .header-content .socialMedia .socialIcon:nth-child(2) {
-          margin-right: 0; }
   .line:after {
-    height: 150px; }
+    height: 180px; }
   .skills-box {
     flex-direction: column; }
     .skills-box .skill {

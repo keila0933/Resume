@@ -16,9 +16,10 @@ class Profile extends React.Component {
         </ul>
 
         <ul className="font-size">
-          <li>喜歡寫程式給自己帶來的成就感與學習給自己帶來的踏實感。</li>
-          <li>在前端開發中找到熱忱與興趣所在，</li>
-          <li>期許自己未來不只能專精於前端，</li>
+          <li>喜歡每經過一個新的網站，就點一下F12，看看別人怎麼寫網頁，</li>
+          <li>專案完成的成就感是我前進的動力，</li>
+          <li>學習新事物的充實感能帶給我滿足，</li>
+          <li>期許自己未來不只能專精於開發User-Friendly的介面，</li>
           <li>更能對系統開發的各個流程有深入了解。</li>
         </ul>
       </div>

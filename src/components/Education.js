@@ -19,11 +19,13 @@ class Education extends React.Component {
           >
             成績單
           </a>{' '}
+          <br />
+          成績達院前3%{' '}
           <a
             href="https://drive.google.com/file/d/19SP8hF6u0_de86n_9YIQLrUITvBOvS39/view?usp=sharing"
             target="_blank"
           >
-            裴陶裴
+            裴陶裴榮譽學會證書
           </a>{' '}
           <br />
           <span>商業大數據學程</span>{' '}
