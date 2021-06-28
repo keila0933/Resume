@@ -207,7 +207,7 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 200px 0; }
+    padding: 200px 0 200px 0; }
     .header-wrapper .header .photo {
       margin-right: 0; }
       .header-wrapper .header .photo img {
