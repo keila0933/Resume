@@ -32,7 +32,7 @@ export default function Works() {
         className="mySwiper"
       >
         <SwiperSlide tag="a" href="https://keila0933.github.io/Resume/">
-          <img src="https://keila0933.github.io/Resume/images/work_resume.JPG" />
+          <img src="https://keila0933.github.io/Resume/images/work_resume2.JPG" />
           <div className="workInfo">
             <p className="workTitle">Portfolio Website</p>
             <p className="workTool">Webpack | React.js | Swiper | SCSS</p>
